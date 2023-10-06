@@ -1,0 +1,175 @@
+.video-side-bar {
+  background: #edf4fa;
+  border-right: 1px solid #dadfe4;
+  height: 100%;
+  overflow: hidden;
+  padding: 30px;
+}
+.video-side-bar .title {
+  color: #1bd4d5;
+  font-weight: bold;
+  font-size: 30px;
+  margin: 30px 0 10px;
+}
+
+.video-side-bar .tagline {
+  font-size: 16px;
+  width: 90%;
+  font-weight: 600;
+  color: #007272;
+}
+
+.video-side-bar .underline {
+  background: #dadfe4;
+  position: relative;
+  height: 7px;
+  border-radius: 10px;
+  overflow: hidden;
+  margin-top: 20px;
+}
+.video-side-bar .underline span {
+  width: 60%;
+  position: absolute;
+  background: #1bd4d5;
+  border-radius: 10px;
+  height: 100%;
+}
+.video-section {
+  background: #edf4fa;
+  min-height: 100vh;
+  overflow: hidden;
+  padding: 30px;
+  padding-bottom: 10px;
+}
+.video-section .video-call {
+  position: relative;
+  background: #000;
+  height: 70vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+}
+
+.video-section .video-call .video-title {
+  color: #616161;
+  font-size: 50px;
+  font-weight: bolder;
+}
+.video-section .video-call .file-upload {
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+}
+.video-section .video-call .file-upload .upload-file {
+  background: #edf4fa;
+  color: #007272;
+  font-weight: 600;
+  padding: 12px 40px;
+  position: relative;
+  cursor: pointer;
+  transition: 0.4s all;
+  border-radius: 5px;
+}
+.video-section .video-call .file-upload .upload-file:hover {
+  background: #007272;
+  color: #fff;
+}
+.video-section .video-call .file-upload .upload-file svg {
+  margin-right: 10px;
+  position: relative;
+  bottom: 1px;
+}
+
+.video-section .video-call .file-upload .upload-file input {
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  z-index: 99;
+  opacity: 0;
+  cursor: pointer;
+}
+.video-section .video-call-footer {
+  background: #e6eff7;
+  border: 1px solid #c5c9ce;
+  min-height: 17vh;
+  border-radius: 10px;
+  overflow: hidden;
+  padding: 30px;
+  padding-bottom: 10px;
+  margin-top: 15px;
+}
+.video-section .video-call-footer p {
+  color: #007272;
+  margin-bottom: 10px;
+  font-size: 14px;
+}
+.video-section .video-call-footer p span {
+  margin-right: 20px;
+  margin-left: 5px;
+  color: #005050;
+}
+.video-call .send-timer {
+  display: flex;
+  height: 100%;
+  align-items: center;
+  justify-content: flex-end;    
+}
+.video-call .send-timer .timer {
+  font-size: 14px;
+}
+.video-section .video-call-footer .share-call {
+  height: 100%;
+  margin: 0 10px !important;
+  margin-top: 5px !important;
+  padding-right: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.video-section .video-call-footer .share-call li {
+  padding: 0 8px;
+  display: inline-block;
+  text-align: center;
+  font-size: 12px;
+}
+.video-section .video-call-footer .share-call li .share-call-icon {
+  display: block;
+  margin: auto;
+  padding: 6px 12px;
+  border-radius: 5px;
+  margin-bottom: 3px;
+  transition: 0.4s all;
+  background: #dadfe4;
+  border: 2px solid #dadfe4;
+  cursor: pointer;
+  color: #007272;
+  font-size: 15px;
+}
+.video-section .video-call-footer .share-call li .share-call-icon:hover,
+.video-section .video-call-footer .share-call li .share-call-icon:focus {
+  border: 2px solid #007272;
+}
+.video-section .video-call-footer .cancel-session {
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+.video-section .video-call-footer .cancel-session button {
+  background: #d8212d;
+  border-radius: 5px;
+  border: none;
+  color: #fff;
+  font-weight: 600;
+  padding: 10px 26px;
+  max-width: 100%;
+  transition: 0.4s all;
+  cursor: pointer;
+  display: inline-block;
+}
+
+.video-section .video-call-footer .cancel-session button:hover {
+  background: #c21622;
+}

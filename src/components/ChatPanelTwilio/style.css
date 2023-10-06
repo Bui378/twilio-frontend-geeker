@@ -1,0 +1,75 @@
+.geek-icon-style {
+  height: 1.8rem;
+  width: 1.8rem;
+  margin-right: 15px;
+}
+
+.chat-header {
+  background-color: rgb(255, 255, 255);
+  width: 100%;
+  height: 50px;
+}
+
+.chat-input-box {
+  width: 100%;
+  height: 60px;
+}
+
+.chat-display-box {
+  border-bottom: 1px solid rgb(170, 161, 161);
+  border-top: none !important;
+  background-color: #f1f3f4;
+}
+
+.chat-container {
+  border: 1px solid #f1ecec;
+  padding: 10px;
+}
+
+.message-div {
+  margin-bottom: 10px;
+}
+
+.me-chat-div {
+  color: #4d3f3f;
+  letter-spacing: 1px;
+  font-size: 12px;
+  /* width: auto; */
+  width: fit-content;
+  background: white;
+  padding: 5px 10px;
+  border-radius: 8px 8px 0px 8px;
+}
+
+.chat-customer-name {
+  color: black;
+  font-size: 14px;
+}
+
+.chat-time-style {
+  color: rgb(92, 91, 91);
+  font-size: 9px;
+  display: flex;
+  justify-content: end;
+  align-self: end;
+}
+
+.me-chat-div-reverse {
+  color: #4d3f3f;
+  letter-spacing: 1px;
+  font-size: 12px;
+  width: fit-content;
+  background: white;
+  padding: 5px 10px;
+  border-radius: 8px 8px 8px 0px;
+}
+
+.loader-name-style {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.d-flex.row.names-style {
+  margin-left: 0px;
+}

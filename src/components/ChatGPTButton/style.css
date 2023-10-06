@@ -1,0 +1,131 @@
+/* .slide-enter {
+    opacity: 0;
+    transform: translateY(100%);
+  } */
+  
+  /* .slide-enter-active {
+    opacity: 1;
+    transform: translateY(0);
+    transition: opacity 500ms, transform 500ms;
+  }
+   */
+  /* .slide-exit {
+    opacity: 1;
+    transform: translateY(-100%);
+    transition: opacity 500ms, transform 500ms;
+  } */
+/*   
+  .slide-exit-active {
+    opacity: 0;
+    transform: translateY(100%);
+    transition: opacity 500ms, transform 500ms;
+  } */
+  
+  .slider1 {
+    width: 380px;
+    /* padding: 10px; */
+    /* background-color: rgb(136, 136, 136); #dbe7ed; */
+    background-color:  #dbe7ed;
+    position: fixed;
+    z-index: 100;
+    bottom: 90px;
+    right: 13px;
+  }
+  
+  /* #register_name {
+    width: 300px;
+  } */
+  
+  @media screen and (max-width: 575px) {
+    .slider {
+      width: 350px;
+    }
+  }
+  @media screen and (max-width: 375px)  {
+    .slider1 {
+      width: 330px !important;
+      /* height: 550px !important; */
+    }
+    .flowxo-iframe{
+      width: 330px !important;
+      height: 550px !important;
+    }
+  }
+
+  @media screen and (max-width: 390px)  {
+    .slider1 {
+      width: 350px !important;
+      /* height: 550px !important; */
+    }
+    .flowxo-iframe{
+      width: 350px !important;
+      height: 550px !important;
+    }
+  }
+  @media screen and (max-width: 393px)  {
+    .slider1 {
+      width: 350px !important;
+      /* height: 550px !important; */
+    }
+    .flowxo-iframe{
+      width: 350px !important;
+      height: 550px !important;
+    }
+  }
+
+  @media screen and (max-width: 360px)  {
+    .slider1 {
+      width: 330px !important;
+      /* height: 550px !important; */
+    }
+    .flowxo-iframe{
+      width: 330px !important;
+      height: 550px !important;
+    }
+  }
+  
+  @media screen and (max-width: 763px) { 
+    #register_name {
+      width: 100%;
+    }
+  }
+
+  /* width:`${expanded ? '70%' : '380px'}`
+  height:`${expanded ? '86%' : "696px"}` */
+
+  .slider-exp{
+    width: 70% ;
+    height: 86% !important;
+  }
+  .slider-com{
+    width: 380px ;
+    height: 696px ;
+  }
+  .tran-eff{
+    transition: all 0.5s !important;
+  }
+  .tran-eff-2{
+    transition: all 0.5s !important;
+  }
+  
+  /* style={{ 'float': 'right', 'margin': '16px', 'fontSize': '27px'}} */
+  
+  .shrinkOutlined{
+    float: right;
+    margin: 16px;
+    font-size: 27px;
+  }
+  .slider-div1{
+    overflow: hidden !important;
+  }
+  
+  .head-bot{
+    background-color: rgb(69, 212, 212);
+  }
+
+  .geek-logo{
+    padding: 20px;
+    font-size: 22px;
+    font-weight: 600;
+    margin-bottom: 0px;
+  }

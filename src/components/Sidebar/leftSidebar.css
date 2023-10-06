@@ -1,0 +1,40 @@
+.bar-logo-box {
+  display: flex;
+  align-items: center;
+}
+.bar-logo-box .mobile-toggle-bar {
+  background: transparent;
+  border: none;
+  font-size: 30px;
+  position: absolute;
+  color: #00a6a7;
+  right: 40px;
+  display: none;
+}
+@media screen and (max-width: 1194px) {
+  .bar-logo-box .mobile-toggle-bar {
+    display: block;
+  }
+}
+
+@media screen and (max-height: 554px) and (max-width:1200px) {
+  .list-group {
+    max-height: 300px;
+    overflow-y: auto;
+    -webkit-overflow-scrolling: touch;
+  }
+}
+
+@media screen and (max-height: 415px) and (max-width:1200px) {
+  .list-group {
+    max-height: 150px;
+    overflow-y: auto;
+    -webkit-overflow-scrolling: touch;
+  }
+}
+
+@media screen and (min-width: 1190px) {
+  .pl-3 {
+    font-size: 14px;
+  }
+}
